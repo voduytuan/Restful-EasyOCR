@@ -6,7 +6,7 @@ This small repository helps wrapping the EasyOCR functionalities inside Restful 
 
 ## Run with default Docker Hub image
 
-The fastest way to run is using provided image at https://hub.docker.com/voduytuan/restful-easyocr. 
+The fastest way to run is using provided image at https://hub.docker.com/repository/docker/voduytuan/restful-easyocr (or `docker pull voduytuan/restful-easyocr`). 
 
 ### Start Docker Container
 
