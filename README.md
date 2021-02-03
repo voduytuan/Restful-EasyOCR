@@ -31,7 +31,7 @@ After starting container, please wait few seconds (about 30s) so that the detect
   - JSON Object with format:
 
     - `image_url` - (String) : URL Of image will be processed
-    - `secret_key` - (String): Secret Key of server. If you're using my public image from hub.docker.com, the secret key will be "easyocr_vdt". If you want to change key, build image yourself and change  in `recognition.py`.
+    - `secret_key` - (String): Secret Key of server. If you're using my public image from hub.docker.com, the secret key will be "easyocr_vdt". Change this key by set the value of environment variable `SECRET_KEY` in `docker run...` command.
 
   - Example of a payload:
 
