@@ -6,12 +6,12 @@ This small repository helps wrapping the EasyOCR functionalities inside Restful 
 
 ## Run with default Docker Hub image
 
-The fastest way to run is using provided image at https://hub.docker.com/voduytuan/Restful-EasyOCR. 
+The fastest way to run is using provided image at https://hub.docker.com/voduytuan/restful-easyocr. 
 
 ### Start Docker Container
 
 ```shell
-$ > docker run -d -i -p 2000:2000 -e SECRET_KEY=easyocr_vdt voduytuan/Restful-EasyOCR
+$ > docker run -d -i -p 2000:2000 -e SECRET_KEY=easyocr_vdt voduytuan/restful-easyocr
 ```
 
 By default, this container will be accessed by port `2000`.
